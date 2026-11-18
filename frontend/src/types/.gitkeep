@@ -1,0 +1,2 @@
+// TypeScript types: Material, SensorReading, Alert, MaintenanceTask, FactoryNode, Analysis
+export {}

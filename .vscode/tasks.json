@@ -1,0 +1,80 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Material IQ Backend",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"-m",
+				"uvicorn",
+				"main:app",
+				"--reload",
+				"--host",
+				"127.0.0.1",
+				"--port",
+				"8001"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}\\backend"
+			},
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start Material IQ frontend",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev",
+				"--",
+				"--host",
+				"127.0.0.1"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}\\frontend"
+			},
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start Material IQ",
+			"dependsOn": [
+				"Run Material IQ Backend",
+				"Start Material IQ frontend"
+			],
+			"dependsOrder": "parallel",
+			"group": "build"
+		},
+		{
+			"label": "Install aiosqlite",
+			"type": "shell",
+			"command": "C:\\Users\\mallu\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"aiosqlite"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Install backend requirements (Python 3.12)",
+			"type": "shell",
+			"command": "C:\\Users\\mallu\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"-r",
+				"backend\\requirements.txt"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

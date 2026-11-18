@@ -1,0 +1,216 @@
+INFO:     127.0.0.1:49687 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64663 - "POST /api/v1/ai/analyze HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:64665 - "POST /api/v1/ai/analyze HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:64667 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64667 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59069 - "GET /api/v1/factory/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59071 - "GET /api/v1/factory/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50828 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50828 - "GET /api/v1/overview/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60126 - "GET /api/v1/maintenance/tasks HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60129 - "GET /api/v1/maintenance/tasks HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58292 - "GET /api/v1/reports/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58294 - "GET /api/v1/reports/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50965 - "GET /api/v1/maintenance/tasks HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50967 - "GET /api/v1/maintenance/tasks HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50845 - "GET /api/v1/factory/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50847 - "GET /api/v1/factory/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61358 - "POST /api/v1/ai/analyze HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:61360 - "POST /api/v1/ai/analyze HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:49689 - "GET /api/v1/ai/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49694 - "POST /api/v1/ai/analyze HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:49695 - "POST /api/v1/ai/analyze HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:49697 - "GET /api/v1/ai/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57961 - "POST /api/v1/sensors/reading HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:57962 - "POST /api/v1/sensors/reading HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:57964 - "GET /api/v1/sensors/timeseries/MAT-001?scenario=normal&points=40 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57966 - "GET /api/v1/sensors/timeseries/MAT-001?scenario=normal&points=40 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57352 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62486 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52711 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52713 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52715 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52717 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52310 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52311 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52313 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52315 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60257 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60258 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50331 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50333 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50337 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50338 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50340 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50342 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49282 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49284 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59710 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59712 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52188 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58945 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59652 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:51948 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=40 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65256 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58608 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=40 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57878 - "GET /api/v1/ai/model/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51784 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:64869 - "GET /api/v1/ai/model/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53459 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:64732 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64734 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:64736 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64738 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:60930 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54834 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59179 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59179 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51035 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51037 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51039 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51041 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51043 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55192 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55560 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55561 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57210 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54684 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56970 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56972 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56974 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56976 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62597 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50954 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52085 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63512 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55788 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55790 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55792 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55794 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64504 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64505 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56054 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56101 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51345 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55216 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58949 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52090 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52601 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53334 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53336 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62352 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56217 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56219 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58494 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58496 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58498 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65137 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53215 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57983 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53289 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62727 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49689 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49690 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53072 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52177 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59476 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60642 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58474 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:52956 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=40 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52957 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:60249 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=40 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50243 - "GET /api/v1/ai/model/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54013 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:54015 - "GET /api/v1/ai/model/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52149 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:52151 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52242 - "POST /api/v1/ai/analyze HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:61536 - "POST /api/v1/ai/analyze HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:59042 - "POST /api/v1/ai/analyze HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:52229 - "POST /api/v1/ai/analyze HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:63334 - "POST /api/v1/ai/analyze HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:63888 - "POST /api/v1/ai/analyze HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:61709 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:61710 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61712 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:61714 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=30 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63227 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54564 - "GET /api/v1/factory/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54568 - "GET /api/v1/factory/graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63939 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62185 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53686 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61498 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61500 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60330 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63303 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63305 - "GET /api/v1/maintenance/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59485 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59487 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59489 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61150 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57240 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57242 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57244 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55911 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55915 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49688 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59848 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62893 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55132 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54146 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54575 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54090 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50682 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52955 - "GET /api/v1/reports/export/csv HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61923 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64383 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59568 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57766 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63410 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51799 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62732 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56401 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60543 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49687 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53506 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59597 - "GET /api/v1/overview/stats HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56817 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56818 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61132 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61133 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61135 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61137 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61139 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61141 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56261 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56262 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63013 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63015 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65330 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65332 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65334 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65338 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49229 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49231 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64410 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62885 - "GET /api/v1/alerts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62888 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62889 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62892 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62893 - "GET /api/v1/sensors/timeseries?material_id=MAT-001&scenario=normal&points=24 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65223 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65223 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59772 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60166 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60169 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:60170 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58251 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58253 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58255 - "GET /api/v1/materials/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49376 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50078 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50078 - "GET /api/v1/ai/analyze?material_id=MAT-001&scenario=normal HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:61831 - "GET /api/v1/overview/stats?material_id=MAT-001&scenario=normal HTTP/1.1" 404 Not Found

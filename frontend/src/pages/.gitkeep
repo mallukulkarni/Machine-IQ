@@ -1,0 +1,2 @@
+// Pages: OverviewPage, MaterialsPage, SensorsPage, AIPage, FactoryPage, MaintenancePage, ReportsPage, SettingsPage
+export {}
