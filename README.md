@@ -1,92 +1,133 @@
-# MATERIAL IQ
-## AI-Powered Predictive Material Intelligence & Smart Factory Digital Twin Platform
+MATERIAL IQ
 
-> See the Damage. Predict the Risk. Protect the Production.
+AI-Powered Predictive Material Intelligence & Smart Factory Digital Twin Platform
+
+«See the Damage. Predict the Risk. Protect the Production.»
 
 ---
 
-## Quick Start
+Quick Start
 
-### Backend
+Backend
 
-```bash
 cd backend
+
 python -m venv venv
-# Windows:
+
+# Windows
 venv\Scripts\activate
-# Mac/Linux:
+
+# Mac/Linux
 source venv/bin/activate
 
 pip install -r requirements.txt
+
+# Copy environment configuration
+# Windows PowerShell:
+Copy-Item .env.example .env
+
+# Mac/Linux:
 cp .env.example .env
-# Local demo defaults are unauthenticated; follow the authentication setup below before deployment.
 
 uvicorn main:app --reload --host 127.0.0.1 --port 8001
-```
 
-### Frontend
+Frontend
 
-```bash
 cd frontend
-copy .env.local.example .env.local  # optional; fill in Supabase values to enable account sign-in
-pnpm install   # or npm install
-pnpm dev       # or npm run dev
-```
 
-Open http://localhost:5173
+# Optional: configure environment variables
+npm install
 
-### Authentication Setup
+npm run dev
 
-1. Create a project at https://supabase.com
-2. Enable Google OAuth in Authentication > Providers
-3. Enable Email OTP in Authentication > Settings
-4. Copy `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` to `frontend/.env.local`
-5. To protect backend API routes, set `MATERIAL_IQ_AUTH_REQUIRED=true`, `SUPABASE_URL`, and `SUPABASE_JWT_SECRET` in `backend/.env`. For production, set a unique `SECRET_KEY` of at least 32 characters. Generate one with `python -c "import secrets; print(secrets.token_urlsafe(48))"`. The backend currently validates Supabase HS256 access tokens; configure your Supabase project to issue that JWT signing algorithm.
+Open: http://localhost:5173
 
-Email and Google sign-in use Supabase only when configured. Without credentials, the login page disables account sign-in and offers an explicitly unauthenticated demo mode; keep backend authentication disabled only for local demos. Do not expose a demo-mode backend to an untrusted network.
+Authentication Setup
 
-## Architecture
+1. Create a project at https://supabase.com.
+2. Enable Google OAuth in Authentication → Providers.
+3. Enable Email OTP in Authentication settings.
+4. Configure "VITE_SUPABASE_URL" and "VITE_SUPABASE_ANON_KEY" in "frontend/.env.local".
+5. To protect backend API routes, configure "MATERIAL_IQ_AUTH_REQUIRED=true", "SUPABASE_URL", and "SUPABASE_JWT_SECRET" in "backend/.env".
 
-- **Frontend**: React + Vite + TypeScript + Tailwind CSS + Three.js
-- **Backend**: Python + FastAPI + SQLAlchemy + SQLite
-- **AI/ML**: Scikit-learn Isolation Forest + explainable risk scoring
-- **Factory Graph**: NetworkX dependency analysis
-- **Virtual Sensors**: Python-based IoT data simulation
+For production, configure a unique "SECRET_KEY" of at least 32 characters.
 
-## Application pages
+Generate one using:
 
-- `/dashboard` — Command Centre and fleet snapshot
-- `/materials` — Material Intelligence and digital passports
-- `/predictions` — Isolation Forest predictions and custom what-if readings
-- `/simulation` — Dedicated Three.js roller simulation lab
-- `/factory-impact` — Factory dependency and production what-if analysis
-- `/maintenance` — Maintenance task priorities
-- `/reports` — Analytics and CSV export
-- `/settings` — Account and system preferences
+python -c "import secrets; print(secrets.token_urlsafe(48))"
 
-The Material Safe Index is calculated as 100 minus the mean prototype AI risk score across the current simulated material readings. It is a demo index, not a certified safety rating. Sensor values are simulated unless explicitly identified otherwise.
+The backend currently validates Supabase HS256 access tokens. Configure your Supabase project accordingly.
 
-## API Endpoints
+Without authentication credentials, the application can offer an unauthenticated local demo mode. Do not expose an unauthenticated backend to untrusted networks.
 
-| Method | Path | Description |
-|--------|------|-------------|
-| GET | /health | Health check |
-| GET | /api/v1/overview/stats | Shared dashboard and report snapshot |
-| GET | /api/v1/materials/ | List all materials |
-| GET | /api/v1/materials/{id}/analyze | AI risk analysis for a material |
-| GET | /api/v1/sensors/timeseries | Virtual sensor time series |
-| GET | /api/v1/ai/analyze | Isolation Forest anomaly detection |
-| POST | /api/v1/ai/analyze | Analyze a custom sensor reading |
-| GET | /api/v1/factory/graph | Factory dependency graph |
-| GET | /api/v1/factory/impact/{id} | Downstream impact analysis |
-| GET | /api/v1/alerts/ | List alerts |
-| POST | /api/v1/alerts/{id}/acknowledge | Acknowledge an alert |
-| GET | /api/v1/maintenance/ | List maintenance tasks |
-| GET | /api/v1/reports/summary | Summary report |
-| GET | /api/v1/reports/export/csv | Export current material snapshot |
+---
 
-Full interactive docs at: http://127.0.0.1:8001/docs
+Architecture
 
-## Disclaimer
+- Frontend: React, Vite, TypeScript, Tailwind CSS and Three.js.
+- Backend: Python, FastAPI, SQLAlchemy and SQLite.
+- AI/ML: Scikit-learn Isolation Forest and explainable risk scoring.
+- Factory Graph: NetworkX dependency analysis.
+- Virtual Sensors: Python-based IoT data simulation.
 
-This is a college hackathon prototype. All sensor readings are simulated. Risk estimates are prototype calculations, not certified industrial safety limits.
+Application Pages
+
+Route| Description
+"/dashboard"| Command Centre and factory overview
+"/materials"| Material Intelligence and digital passports
+"/predictions"| AI predictions and what-if analysis
+"/simulation"| Interactive 3D simulation lab
+"/factory-impact"| Factory dependency and production impact analysis
+"/maintenance"| Maintenance task priorities
+"/reports"| Analytics and CSV export
+"/settings"| Account and system preferences
+
+API Endpoints
+
+Method| Endpoint| Description
+GET| "/health"| Health check
+GET| "/api/v1/overview/stats"| Dashboard and report overview
+GET| "/api/v1/materials/"| List all materials
+GET| "/api/v1/materials/{id}/analyze"| Material risk analysis
+GET| "/api/v1/sensors/timeseries"| Virtual sensor time series
+GET| "/api/v1/ai/analyze"| AI anomaly detection
+POST| "/api/v1/ai/analyze"| Analyze custom sensor readings
+GET| "/api/v1/factory/graph"| Factory dependency graph
+GET| "/api/v1/factory/impact/{id}"| Downstream impact analysis
+GET| "/api/v1/alerts/"| List alerts
+POST| "/api/v1/alerts/{id}/acknowledge"| Acknowledge an alert
+GET| "/api/v1/maintenance/"| List maintenance tasks
+GET| "/api/v1/reports/summary"| Summary report
+GET| "/api/v1/reports/export/csv"| Export material data
+
+Interactive API documentation:
+
+http://127.0.0.1:8001/docs
+
+Key Features
+
+- AI-powered material anomaly detection.
+- Material Safe Index and risk assessment.
+- Interactive 3D digital twin simulations.
+- Virtual IoT sensor monitoring.
+- Explainable AI insights.
+- Factory dependency and impact analysis.
+- Predictive maintenance recommendations.
+- What-if scenario analysis.
+- Material monitoring and analytics.
+
+Disclaimer
+
+MATERIAL IQ is a college hackathon prototype. Sensor readings are simulated unless explicitly identified otherwise. Risk scores are prototype calculations and are not certified industrial safety ratings or validated failure predictions.
+
+Future Scope
+
+- Integration with real industrial IoT sensors.
+- Advanced material inspection systems.
+- Real-time industrial monitoring.
+- Improved predictive analytics.
+- Integration with production management systems.
+
+---
+
+MATERIAL IQ — See the Damage. Predict the Risk. Protect the Production.
